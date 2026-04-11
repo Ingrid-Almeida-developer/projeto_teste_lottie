@@ -3,7 +3,7 @@ const animaBut = lottie.loadAnimation({
 	renderer: 'svg',
 	loop: false,
 	autoplay: false,
-	path: 'https://assets9.lottiefiles.com/packages/lf20_touohxv0.json'
+	path: 'https://assets8.lottiefiles.com/packages/lf20_nzuitqg1.json'
 });
 
 let aberto = false;
