@@ -8,4 +8,12 @@ const animaBut = lottie.loadAnimation({
 
 let aberto = false;
 
-
+document.getElementById("botao").addEventListener('click', () => {
+	if(!aberto) {
+		animaBut.setDirection(1);
+	} else {
+		animaBut.setDirection(-1);
+	}
+	animaBut.play();
+	aberto = !aberto;
+});
