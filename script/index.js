@@ -27,7 +27,7 @@ document.getElementById("botao").addEventListener('click', () => {
 		menu.style.display = "block";
 		menu.classList.add("menu-animado");
 		itens.forEach(a => {
-			a.style.animation = `animaItemMenu 2s ease-in-out {delay}s normal backwards`;
+			a.style.animation = `animaItemMenu 2s ease-in-out ${delay}s normal backwards`;
 			delay++;
 		});
 	} else {
