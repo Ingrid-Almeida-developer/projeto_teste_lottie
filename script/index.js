@@ -17,3 +17,22 @@ document.getElementById("botao").addEventListener('click', () => {
 	animaBut.play();
 	aberto = !aberto;
 });
+
+document.getElementById("botao").addEventListener('click', () => {
+	if (!aberto) {
+		const menu = document.getElementById("menu");
+		const itens = menu.querySelectorAll("a");
+		let delay = 1;
+
+		menu.style.display = "block";
+		menu.classList.add("menu-animado");
+		itens.forEach(a => {
+			a.style.animation = `animaItemMenu 2s ease-in-out {delay}s normal backwards`;
+			delay++;
+		});
+	} else {
+		const menu = document.getElementById("
+menu");
+		menu.style.display = "none";
+	}
+});
