@@ -22,7 +22,7 @@ button {
 	height: 50px;
 	background-color: var(--cor4);
 	transition: 2s;
-	z-index: 1;
+	position: fixed;
 }
 
 button:active {
@@ -32,9 +32,11 @@ button:active {
 nav {
 	display: flex;
 	justify-content: space-between;
+	flex-direction: row;
 }
 
 #menu {
+	background-color: var(--cor2);
 	display: none;
 }
 
