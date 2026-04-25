@@ -23,7 +23,6 @@ button {
 	height: 50px;
 	background-color: var(--cor4);
 	transition: 2s;
-	position: fixed;
 }
 
 button:active {
