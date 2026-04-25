@@ -1,5 +1,5 @@
 const animaBut = lottie.loadAnimation({
-	container: document.getElementById("botao"),
+	container: document.getElementById("animacao_do_menu"),
 	renderer: 'svg',
 	loop: false,
 	autoplay: false,
