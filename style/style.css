@@ -21,8 +21,8 @@ header {
 }
 
 button {
-	width: 5vw;
-	height: 5vw;
+	width: 20vw;
+	height: 20vw;
 	background-color: var(--cor4);
 	transition: 2s;
 }
