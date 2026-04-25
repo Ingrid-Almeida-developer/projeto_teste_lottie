@@ -14,13 +14,15 @@
 header {
 	position: sticky;
 	top: 0;
+	display: flex;
+	flex-direction: row;
 	width: 100vw;
 	background-color: var(--cor1);
 }
 
 button {
-	width: 80px;
-	height: 50px;
+	width: 5vw;
+	height: 5vw;
 	background-color: var(--cor4);
 	transition: 2s;
 }
